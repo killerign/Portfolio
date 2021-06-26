@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { Component } from 'react';
+import {Hstack,Box,Flex,Spacer} from "@chakra-ui/react";
+import Boxes from './components/Boxes';
+import "./App.css"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Box bg = "#121111" w="100vw" h="100vh" overflow = "auto" position = "fixed">
+    <Boxes />
+    </Box>
+
     </div>
   );
 }
