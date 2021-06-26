@@ -1,6 +1,6 @@
 import { Avatar, Text, Box, Flex,  IconButton, SearchIcon} from '@chakra-ui/react'
 import React from 'react'
-import { SocialIcon } from 'react-social-icons';
+
 function Fixedinfo() {
     return (
         <div>
@@ -14,12 +14,6 @@ function Fixedinfo() {
         <Text fontSize = "2xl" fontWeight = "bold"  color ="beige" fontFamily = 'Bungee Hairline'>Srinivasa Krishnan A N</Text>
         <Box h = "3vw"></Box>
         <Flex flexDirection = "row">
-            <Box w="2.5vw"></Box>
-            <SocialIcon network ="github" bgColor ="white" />
-            <Box w = "2.5vw"></Box>
-            <SocialIcon network = "linkedin" />
-            <Box w = "2.5vw"></Box>
-            <SocialIcon network = "twitter" />
         </Flex>
         </div>
     )
